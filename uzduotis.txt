@@ -1,0 +1,34 @@
+Paskyros sukurimas:
+POST metodas
+https://social-media-api/users/{id}
+
+Posto sukurimas:
+POST metodas
+https://social-media-api/users/{id}/posts/{id}
+
+Komentaru perziura:
+GET metodas
+https://social-media-api/users/{id}/posts/{id}/comments
+
+Komentaro rasymas:
+POST metodas
+https://social-media-api/users/{id}/posts/{id}/comments/{id}
+
+Komentaro redagavimas:
+PUT/PATCH metodas
+https://social-media-api/users/{id}/posts/{id}/comments/{id}
+
+Informacijos apie konkretaus vartotojo paskyra gavimas:
+GET metodas 
+http://social-media-api/users/{id}
+
+Pagrindiniai resursai:
+user name
+user email
+user password
+
+comment from
+comment created_at
+comment edited_at
+comment message
+
